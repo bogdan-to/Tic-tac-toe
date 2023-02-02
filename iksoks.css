@@ -1,0 +1,69 @@
+.tictac {
+    background-color: blanchedalmond;
+    width:30%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "item1 item2 item3"
+    "item4 item5 item6"
+    "item7 item8 item9"
+    ;
+}
+
+.item_1 {
+    grid-area: item1;
+}
+
+.item_2 {
+    grid-area: item2;
+}
+
+.item_3 {
+    grid-area: item3;
+}
+
+.item_4 {
+    grid-area: item4;
+}
+
+.item_5 {
+    grid-area: item5;
+}
+
+.item_6 {
+    grid-area: item6;
+}
+
+.item_7 {
+    grid-area: item7;
+}
+
+.item_8 {
+    grid-area: item8;
+}
+
+.item_9 {
+    grid-area: item9;
+}
+
+
+
+.items {
+    background-color: azure;
+    border:1px solid black;
+    aspect-ratio: 1;
+}
+
+.items input {
+    text-align: center;
+    padding:10px;
+    height:100%;
+    width:100%;
+    font-size: 50px;
+}
+
+.reset, #potez {
+    text-align: center;
+}

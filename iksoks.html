@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iks-Oks</title>
+    <link rel="stylesheet" href="./iksoks.css">
+</head>
+
+<body>
+    
+    <div class="tictac">
+        <div class="items item_1"><input type="button" value=" " id="button_1" onclick="klik(1, this.id, this.value)">
+        </div>
+        <div class="items item_2"><input type="button" value=" " id="button_2" onclick="klik(2, this.id, this.value)">
+        </div>
+        <div class="items item_3"><input type="button" value=" " id="button_3" onclick="klik(3, this.id, this.value)">
+        </div>
+        <div class="items item_4"><input type="button" value=" " id="button_4" onclick="klik(4, this.id, this.value)">
+        </div>
+        <div class="items item_5"><input type="button" value=" " id="button_5" onclick="klik(5, this.id, this.value)">
+        </div>
+        <div class="items item_6"><input type="button" value=" " id="button_6" onclick="klik(6, this.id, this.value)">
+        </div>
+        <div class="items item_7"><input type="button" value=" " id="button_7" onclick="klik(7, this.id, this.value)">
+        </div>
+        <div class="items item_8"><input type="button" value=" " id="button_8" onclick="klik(8, this.id, this.value)">
+        </div>
+        <div class="items item_9"><input type="button" value=" " id="button_9" onclick="klik(9, this.id, this.value)">
+        </div>
+    </div>
+    <br><br>
+    <div id="potez">
+        <h3>Na potezu je: <span id="ko_je_na_potezu"></span></h3>
+    </div>
+    <br><br><br>
+    <div class="reset"><input type="button" value="RESETUJ" id="reset_dugme" onclick="reset()"></div>
+    <script src="./iksoks.js"></script>
+</body>
+</html>
